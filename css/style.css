@@ -21,6 +21,15 @@ body {
     z-index: 100;
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+    background: #64ffda;
+    border-radius: 1rem;
+}
+
 /* HEADER */
 nav {
     /* border: 1px solid white; */
