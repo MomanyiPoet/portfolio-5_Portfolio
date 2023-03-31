@@ -101,13 +101,40 @@ nav ul span a:hover {
 #check {
     display: none;
 }
-.wrapper i {
+#navbar i {
     display: none;
+}
+
+/* LEFT SOCIAL ICONS */
+.left-social-icons ul {
+    /* border: 1px solid white; */
+    position: fixed;
+    left: 3.5rem;
+    bottom: 0;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    text-align: center;
+}
+.left-social-icons ul li {
+    /* border: 1px solid red; */
+    list-style: none;
+    margin: 1.5rem 0 1rem;
+}
+.left-social-icons ul i {
+    color: #c7c7c7;
+    font-size: 1.2rem;
+}
+.left-social-icons ul i:hover {
+    color: #64ffda;
+}
+.ver-line {
+    border-left: 1px solid #64ffda;
+    height: 4rem;
+    margin-left:0.6rem;
 }
 
 /* SECTION CLASS CONTENT */
 .content {
-    /* border: 1px solid white; */
+    border: 1px solid white;
     width: 70%;
     margin: 4rem auto;
 }
@@ -129,7 +156,6 @@ p {
         min-height: 100vh;
         text-align: center;
         padding: 0;
-        overflow-x: hidden;
         background-color: #0a192f;
         box-shadow: 0 10px 30px 30px #020c1bb3;
         transition: all .5s;
@@ -146,22 +172,27 @@ p {
         margin-left: 2rem;
         width: 1.7rem;
     }
-    .wrapper i {
+    #navbar i {
         display: block;
         font-size: 1.5rem;
         color: #64ffda;
         margin-right: 2rem;
         cursor: pointer;
     }
-    .wrapper ul i {
+    #navbar ul i {
         text-align: right;
         margin-top: 1rem;
         font-size: 2rem;
     }
+
+    /* LEFT SOCIAL ICONS */
+    .left-social-icons ul {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) {
-    .wrapper i {
+    #navbar i {
         font-size: 1.5rem;
     }
 }
