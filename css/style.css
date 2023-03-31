@@ -328,6 +328,7 @@ nav ul li a:hover::after {
     }
     .home-content p {
         font-size: 0.9rem;
+        margin-top: 2rem;
     }
 }
 
@@ -358,5 +359,6 @@ nav ul li a:hover::after {
     }
     .home-content p {
         font-size: 0.8rem;
+        margin-top: 1rem;
     }
 }
