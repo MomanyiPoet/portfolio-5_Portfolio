@@ -343,9 +343,11 @@ nav ul li a:hover::after {
     }
     .home-content h1 {
         font-size: 2.4rem;
+        margin-top: 0.5rem;
     }
     .home-content h3 {
         font-size: 1.4rem;
+        margin-top: 0.5rem;
     }
     .home-content h4 {
         font-size: 0.8rem;
