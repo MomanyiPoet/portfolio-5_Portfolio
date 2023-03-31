@@ -281,11 +281,11 @@ nav ul li a:hover::after {
     }
     .logo {
         margin-left: 2rem;
-        width: 1.7rem;
+        width: 3rem;
     }
     #navbar i {
         display: block;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         color: #64ffda;
         margin-right: 2rem;
         cursor: pointer;
