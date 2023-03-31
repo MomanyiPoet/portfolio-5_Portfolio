@@ -289,14 +289,16 @@ nav ul li a:hover::after {
         color: #64ffda;
         margin-right: 2rem;
         cursor: pointer;
+    }
+    /* #navbar ul i {
+        text-align: right;
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    } */
+    .fa-bars-staggered {
         opacity: 0;
         animation: slideLeft 1s ease forwards; /* animation*/
         animation-delay: 1.5s;
-    }
-    #navbar ul i {
-        text-align: right;
-        margin-top: 1rem;
-        font-size: 2rem;
     }
 
     /* LEFT SOCIAL ICONS */
@@ -331,7 +333,7 @@ nav ul li a:hover::after {
 
 @media screen and (max-width: 400px) {
     #navbar i {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     /* SECTION CLASS CONTENT */
