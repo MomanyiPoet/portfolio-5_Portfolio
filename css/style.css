@@ -53,16 +53,6 @@ nav {
     animation: slideRight 1s ease forwards;
     animation-delay: 1.5s;
 }
-@keyframes slideRight {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 nav ul {
     /* border: 1px solid red; */
     flex: 1;
@@ -176,6 +166,7 @@ nav ul li a:hover::after {
     /* border: 1px solid white; */
     width: 100%;
     color: #c7c7c7;
+    z-index: -1;
 }
 .home-content h1 {
     font-size: 4rem;
@@ -222,6 +213,17 @@ nav ul li a:hover::after {
 @keyframes slideRight {
     0% {
         transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
         opacity: 0;
     }
     100% {
@@ -287,6 +289,9 @@ nav ul li a:hover::after {
         color: #64ffda;
         margin-right: 2rem;
         cursor: pointer;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards; /* animation*/
+        animation-delay: 1.5s;
     }
     #navbar ul i {
         text-align: right;
@@ -298,10 +303,54 @@ nav ul li a:hover::after {
     .left-social-icons ul {
         display: none;
     }
+
+    /* SECTION CLASS CONTENT */
+    .content {
+        width: 98%;
+    }
+
+    /* HOME */
+    .home {
+        margin: 0 1rem;
+    }
+    .home-content h1 {
+        font-size: 2.2rem;
+    }
+    .home-content h3 {
+        font-size: 1.6rem;
+    }
+    .home-content h4 {
+        font-size: 1rem;
+    }
+    .home-content p {
+        font-size: 0.7rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
     #navbar i {
         font-size: 1.5rem;
+    }
+
+    /* SECTION CLASS CONTENT */
+    .content {
+        width: 100%;
+    }
+
+    /* HOME */
+    .home {
+        margin: 0 0.5rem;
+    }
+    .home-content h1 {
+        font-size: 2.4rem;
+    }
+    .home-content h3 {
+        font-size: 1.4rem;
+    }
+    .home-content h4 {
+        font-size: 0.8rem;
+    }
+    .home-content p {
+        font-size: 0.7rem;
     }
 }
