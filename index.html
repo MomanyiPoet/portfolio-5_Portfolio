@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- <div id="preloader"></div> -->
+    <div id="preloader"></div>
 
     <div class="wrapper">
         <header>
@@ -24,10 +24,10 @@
 
                 <ul>
                     <label for="check"><i class="fa-solid fa-xmark"></i></label>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
-                    <span><a href="">Resume</a></span>
+                    <li><a href="" style="--i:1;">About</a></li>
+                    <li><a href="" style="--i:2;">Portfolio</a></li>
+                    <li><a href="" style="--i:3;">Contact</a></li>
+                    <span><a href="" style="--i:4;">Resume</a></span>
                 </ul>
 
                 <input type="checkbox" id="check">
@@ -46,16 +46,22 @@
             </div>
         </section>
     
-        <section>
-            <div class="content">
-                <img src="images/logo1.png" alt="logo"><br>
-                <img src="images/logo1.png" alt="logo"><br>
-                <img src="images/logo1.png" alt="logo"><br>
-                <img src="images/logo1.png" alt="logo"><br>
-                <img src="images/logo1.png" alt="logo">
-                <img src="images/logo1.png" alt="logo">
-                
-                
+        <section class="content">
+            <div class="home">
+                <div class="home-content">
+                    <h4>Hello, my name is</h4>
+                    <h1>Momanyi Brian</h1>
+                    <h3>And I'm <span class="multiple-text"></span></h3><br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, <br>
+                        animi perspiciatis commodi sequi est quas illo reprehenderit eaque?<br> 
+                        Fuga libero quasi ipsam vel nostrum at, error esse accusantium,<br> 
+                        recusandae mollitia sunt tenetur maxime aliquam officiis suscipit <br> 
+                        labore impedit quibusdam perferendis incidunt illum? <br>
+                        Praesentium aut tenetur saepe accusantium labore a modi!</p>
+                </div>
+                <!-- <div class="home-img">
+                    <img src="./images/pic1.jpg" alt="image">
+                </div> -->
             </div>
         </section>
     </div>
@@ -70,11 +76,13 @@
         });
     </script>
 
-    <!-- <script>
+    <script>
         setTimeout(function(){
             $('#preloader').fadeToggle();
         }, 1500);
-    </script> -->
+    </script>
+
+<script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -10,3 +10,11 @@ window.addEventListener("scroll", function(){
     }
     lastScrollTop = scrollTop;
 })
+
+let typed = new Typed('.multiple-text', {
+    strings: ["a Front_end Developer", "an IT-Specialist"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 4000,
+    loop: true
+})
