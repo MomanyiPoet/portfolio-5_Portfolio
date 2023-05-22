@@ -32,7 +32,7 @@ body {
 
 /* WRAPPER */
 .wrapper {
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 /* HEADER */
@@ -160,14 +160,14 @@ nav ul li a:hover::after {
 .sec-height {
     margin: 0 1rem;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* HOME */
 .home {
     border: 1px solid green;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 .home-content {
     border: 1px solid white;
@@ -177,6 +177,7 @@ nav ul li a:hover::after {
 }
 .home-content h1 {
     font-size: 4rem;
+    color: #CCD6F6;
     font-weight: 750;
     opacity: 0;
     animation: slideRight 1s ease forwards; /* animation*/
@@ -184,6 +185,7 @@ nav ul li a:hover::after {
 }
 .home-content h3 {
     font-size: 3.3rem;
+    color: #CCD6F6;
     font-weight: 750;
     opacity: 0;
     animation: slideTop 1s ease forwards; /* animation*/
@@ -197,6 +199,7 @@ nav ul li a:hover::after {
 }
 .home-content h4 {
     font-size: 1.3rem;
+    color: #64ffda;
     font-weight: 750;
     opacity: 0;
     animation: slideBottom 1s ease forwards; /* animation*/
