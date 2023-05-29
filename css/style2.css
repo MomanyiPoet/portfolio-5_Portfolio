@@ -425,6 +425,16 @@ nav ul span a:hover {
 }
 
 @media screen and (max-width: 480px) {
+
+    /* SECTION CLASS CONTENT */
+
+    /* MAIN CONTENT */
+    .content {
+        width: 100%;
+    }
+
+    
+
     #navbar i {
         font-size: 2rem;
     }
