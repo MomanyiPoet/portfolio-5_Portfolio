@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
     <link rel="manifest" href="images/favicons/site.webmanifest">
+
+    <!-- FontAwsome Icons -->
     <script src="https://kit.fontawesome.com/a9cdceb046.js" crossorigin="anonymous"></script>
 
-    <title>Momanyi Brian</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Momanyi Brian Portfolio</title>
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-    <div id="preloader"></div>
-
     <div class="wrapper">
+
+        <!-- NAVBAR -->
         <header>
             <nav id="navbar">
-                <img src="images/logo1.png" alt="logo" class="logo">
+                <img src="images/momanyi-logo.png" alt="logo" class="logo">
 
                 <ul>
-                    <!-- <label for="check"><i class="fa-solid fa-xmark"></i></label> -->
                     <li><a href="" style="--i:1;">About</a></li>
                     <li><a href="" style="--i:2;">Portfolio</a></li>
                     <li><a href="" style="--i:3;">Contact</a></li>
+                    <li><a href="" style="--i:3;">Blog</a></li>
                     <span><a href="" style="--i:4;">Resume</a></span>
                 </ul>
 
@@ -35,6 +38,7 @@
             </nav>
         </header>
 
+        <!-- LEFT SOCIAL ICONS -->
         <section>
             <div orientation ="left" class="left-social-icons">
                 <ul>
@@ -45,29 +49,41 @@
                 </ul>
             </div>
         </section>
-    
+
+        <!-- MAIN CONTENT -->
         <section class="content">
+
+            <!-- HOME/LANDING SECTION -->
             <div class="home sec-height">
                 <div class="home-content">
                     <h4>Hello, my name is</h4>
                     <h1>Momanyi Brian</h1>
                     <h3>And I'm <span class="multiple-text"></span></h3><br>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, <br>
-                        animi perspiciatis commodi sequi est quas illo reprehenderit eaque?<br> 
-                        Fuga libero quasi ipsam vel nostrum at, error esse accusantium,<br> 
-                        recusandae mollitia sunt tenetur maxime aliquam officiis suscipit <br> 
-                        labore impedit quibusdam perferendis incidunt illum? <br>
-                        Praesentium aut tenetur saepe accusantium labore a modi!</p>
+                    <p class="medium-p">I have a passion for creating visually stunning and user-friendly<br>
+                        web designs, responsive layouts, engaging animations<br>
+                        and optimized performing web sites.
+                    </p>
+                    <a href=""><button>Check out my Designs</button></a>
                 </div>
-                <!-- <div class="home-img">
-                    <img src="./images/pic1.jpg" alt="image">
-                </div> -->
+            </div>
+
+            <!-- ABOUT SECTION -->
+            <div class="about sec-height">
+                <div class="about-content">
+                    <h2>About</h2>
+                    <p>"Greetings! I'm Momanyi Brian,, a passionate Front-End Developer committed to crafting visually stunning and user-friendly websites.
+                        To sharpen my skills, I attended the prestigious ALX Software Engineering Boot camp, where I perfected my front-end development abilities. I completed the IT Professional certificate on Coursera, expanding my knowledge of IT infrastructure and back-end technologies. I also earned the UX Design Professional certificate, enhancing my ability to create visually appealing and highly functional user experiences."
+                        Here are a few technologies I have been working with recently:</p>
+                </div>
+                <div class="about-img">
+                    <img src="./images/pic1.jpg" alt="image" width="400px">
+                </div>
             </div>
         </section>
     </div>
 
+    <!-- CHECK SCRIPT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
     <script>
         $(document).ready(function(){
             $('#check').click(function(){
@@ -76,12 +92,7 @@
         });
     </script>
 
-    <script>
-        setTimeout(function(){
-            $('#preloader').fadeToggle();
-        }, 1500);
-    </script>
-
+    <!-- MULTIPLE TEXT SCRIPTS-->
     <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
