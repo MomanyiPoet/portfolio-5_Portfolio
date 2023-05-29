@@ -11,6 +11,7 @@ window.addEventListener("scroll", function(){
     lastScrollTop = scrollTop;
 })
 
+// MULTIPLE TEXT SCRIPT
 let typed = new Typed('.multiple-text', {
     strings: ["a Front_end Developer", "an IT-Specialist"],
     typeSpeed: 50,
