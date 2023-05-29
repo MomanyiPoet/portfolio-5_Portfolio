@@ -245,6 +245,28 @@ nav ul span a:hover {
 .about {
     border: 1px solid var(--border-green);
 }
+.about-content {
+    border: var(--border-white);
+    color: var(--dark-white);
+}
+.about-content h2 {
+    color: var(--bright-white);
+}
+.hor-line {
+    border-top: 1px solid var(--bright-white);
+    width: 30vw;
+    position: absolute;
+    margin: -0.8rem 0 0 6rem;
+}
+.medium-p {
+    margin-top: 2rem;
+
+}
+img {
+    width: 80%;
+    border-radius: 50%;
+}
+
 
 /* KEYFRAMES */
 @keyframes slideRight {
@@ -330,7 +352,7 @@ nav ul span a:hover {
         padding: 1rem;
     }
     nav ul span a{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         font-weight: 400;
         padding: 0.5rem 2rem;
         border-radius: 20px;
